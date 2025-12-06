@@ -8,7 +8,7 @@ let bound=(x,y)=>x>=0&&x<n&&y>=0&&y<n;
 let exp=``;
 
 function work(debug){
-	let a=(debug?exp:document.body.innerText).trim();
+	let a=(debug?exp:document.body.innerText).trimEnd();
 	let b=a.split('\n');
 	let n=b.length;
 
